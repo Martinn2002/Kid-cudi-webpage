@@ -11974,6 +11974,317 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, .h1 {
+  font-size: 3.05em;
+}
+
+h2, .h2 {
+  font-size: 2.44em;
+}
+
+h3, .h3 {
+  font-size: 1.95em;
+}
+
+h4, .h4 {
+  font-size: 1.56em;
+}
+
+h5, .h5 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 1em;
+}
+
+@media (max-width: 1366px) {
+  h1, .h1 {
+    font-size: 2.44em;
+  }
+  h2, .h2 {
+    font-size: 1.95em;
+  }
+  h3, .h3 {
+    font-size: 1.56em;
+  }
+  h4, .h4 {
+    font-size: 1.25em;
+  }
+  h5, .h5 {
+    font-size: 1em;
+  }
+}
+body {
+  background-color: #000;
+  font-family: "Exo 2", sans-serif;
+}
+
+.body-merchandising {
+  background-color: #1d1d1d;
+}
+.body-merchandising h1, .body-merchandising .h1, .body-merchandising h2, .body-merchandising .h2 {
+  color: #86cdea;
+}
+
+.navbar-brand img {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.banner {
+  background-image: url(../img/banner.webp);
+  background-size: auto 100vh;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.banner-texto {
+  height: 87vh;
+  color: white;
+  font-family: "Michroma", sans-serif;
+}
+.banner-texto svg {
+  height: 48px;
+  width: 48px;
+}
+.banner-texto a {
+  color: white;
+}
+.banner-texto h1, .banner-texto .h1 {
+  color: #E66BAC !important;
+  text-transform: uppercase !important;
+}
+
+h1, .h1, h2, .h2 {
+  font-family: "Michroma", sans-serif;
+  color: #E66BAC;
+  text-transform: uppercase !important;
+}
+
 header {
-  background-color: black;
+  font-family: "Michroma", sans-serif;
+}
+header a {
+  color: white !important;
+}
+header .bg-body-tertiary {
+  background-color: rgba(0, 0, 0, 0.8235294118) !important;
+}
+header button {
+  background: none;
+  border: none;
+}
+header svg {
+  height: 30px;
+  width: 25px;
+  color: white;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+.texto-logo {
+  color: #E66BAC !important;
+  text-transform: uppercase !important;
+}
+
+.row-eventos {
+  color: white;
+}
+.row-eventos img {
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row-discografia a, .row-merchandising a, .row-blog a {
+  color: white;
+  text-decoration: none;
+  font-family: "Michroma", sans-serif;
+}
+
+.row-blog p, .row-blog h5, .row-blog .h5 {
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+.row-blog h4, .row-blog .h4 {
+  color: #E66BAC;
+  text-transform: uppercase !important;
+}
+.row-blog img {
+  height: 455px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.row-blog h3, .row-blog .h3 {
+  color: #E66BAC;
+}
+
+.row-ultimos-articulos img {
+  height: 217px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.row-ultimos-articulos h5, .row-ultimos-articulos .h5 {
+  font-family: "Michroma", sans-serif;
+}
+
+.footer-background {
+  background-color: #E66BAC;
+  color: #000;
+}
+
+footer {
+  font-family: "Michroma", sans-serif;
+}
+footer .lista-nav a {
+  color: #000 !important;
+  text-decoration: none;
+}
+footer .lista-nav li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer .footer-plataformas svg {
+  height: 35px;
+  width: 35px;
+}
+footer form {
+  font-family: "Exo 2", sans-serif;
+}
+footer form input {
+  border: solid 1px black !important;
+  height: 35px !important;
+  border-style: none;
+  width: 20vw;
+}
+footer form input:focus {
+  border: solid 1px #000 !important;
+}
+footer form button {
+  border-style: none;
+  background-color: #000;
+  height: 35px;
+  border: solid 1px black !important;
+  width: 45px;
+}
+footer form button svg {
+  height: 24px;
+  width: auto;
+  color: #E66BAC;
+}
+
+.main-discografia p, .main-discografia h5, .main-discografia .h5 {
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+.main-discografia h4, .main-discografia .h4 {
+  font-family: "Michroma", sans-serif;
+  color: #E66BAC;
+}
+.main-discografia a {
+  text-decoration: none;
+}
+
+.main-disco iframe {
+  height: 700px;
+}
+.main-disco h4, .main-disco .h4, .main-disco h5, .main-disco .h5 {
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+.main-disco li {
+  list-style: none;
+  color: white;
+  margin-top: 20px;
+}
+.main-disco svg {
+  color: #E66BAC;
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+}
+.main-disco hr {
+  color: white;
+}
+
+.img-eventos {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.categorias {
+  width: 100%;
+}
+
+.card {
+  border: 3px solid #86cdea;
+  background-color: #000;
+}
+.card .padding-interno {
+  padding: 0px 20px 30px 20px;
+}
+.card .titulo {
+  font-family: "Michroma", sans-serif;
+  color: #E66BAC;
+}
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.cat-concierto {
+  background-color: blue;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50%;
+}
+
+.cat-meetup {
+  background-color: green;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50%;
+}
+
+.cat-lanzamiento {
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50%;
+}
+
+.img-eventos {
+  height: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row-evento img {
+  max-height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row-texto-evento {
+  color: white;
+}
+
+.banner-merch {
+  background-image: url(../img/neverland.png);
+  height: 60vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.carousel-control-next {
+  right: -20vh;
+}
+
+.carousel-control-prev {
+  left: -20vh;
 }/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,52 @@
+{
+  "albums": [
+    {
+      "titulo": "INSANO (NITRO MEGA)",
+      "imagen_portada": "assets/img/Insano_Nitro_Mega.jpg"
+    },
+    {
+      "titulo": "INSANO",
+      "imagen_portada": "assets/img/Insano.jpg"
+    },
+    {
+      "titulo": "Entergalactic",
+      "imagen_portada": "assets/img/Entergalactic.jpg"
+    },
+    {
+      "titulo": "Man on the Moon III: The Chosen",
+      "imagen_portada": "assets/img/3_Man_On_The_Moon.jpg"
+    },
+    {
+      "titulo": "Kids See Ghosts",
+      "imagen_portada": "assets/img/Kids_See_Ghosts.jpg"
+    },
+    {
+      "titulo": "Passion, Pain & Demon Slayin'",
+      "imagen_portada": "assets/img/Pasion,Pain,Demon_Slayin.jpg"
+    },
+    {
+      "titulo": "Speedin' Bullet 2 Heaven",
+      "imagen_portada": "assets/img/Speedin_Bullet_2_Heaven.jpg"
+    },
+    {
+      "titulo": "Satellite Flight: The Journey to Mother Moon",
+      "imagen_portada": "assets/img/The_Journey.jpg"
+    },
+    {
+      "titulo": "Indicud",
+      "imagen_portada": "assets/img/Indicud.jpg"
+    },
+    {
+      "titulo": "WZRD",
+      "imagen_portada": "assets/img/WZRD.jpg"
+    },
+    {
+      "titulo": "Man on the Moon II: The Legend of Mr. Rager",
+      "imagen_portada": "assets/img/2_MoTM.jpg"
+    },
+    {
+      "titulo": "Man on the Moon: The End of Day",
+      "imagen_portada": "assets/img/MoTM.jpg"
+    }
+  ]
+}

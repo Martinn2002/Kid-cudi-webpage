@@ -1,6 +1,300 @@
-header{
-    #logo-nav{
+body{
+    background-color: #000;
+    font-family: $texto_fuente;
+}
+
+.body-merchandising{
+    background-color: #1d1d1d;
+    h1, h2{
+        color: $celeste
+    }
+}
+
+.navbar-brand{
+    img{
         width: 80px !important;
         height: 80px !important;
     }
+}
+
+.banner{
+    background-image: url(../img/banner.webp);
+    background-size: auto 100vh;    
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.banner-texto{
+    height: 87vh;
+    color: white;
+    svg{
+        height: 48px;
+        width: 48px;
+    }
+    a{
+        color: white;
+    }
+    h1{
+        color: $principal !important;
+        text-transform: uppercase !important;
+    }
+    font-family: $titulo_fuente;
+
+
+}
+
+h1, h2{
+ font-family: $titulo_fuente;
+ color: $principal;
+ text-transform: uppercase !important;
+}
+
+header{
+    font-family: $titulo_fuente;
+    a{
+        color: white !important;
+    }
+    .bg-body-tertiary{
+        background-color: #000000d2 !important;
+    }
+    button{
+        background: none;
+        border: none;
+    }
+    svg{
+        height: 30px;
+        width: 25px;
+        color: white;
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+
+
+   
+}
+
+.texto-logo{
+    color: $principal !important;
+    text-transform: uppercase !important;
+}
+
+.row-eventos{
+    color: white;
+    img{
+        height: 800px;
+        object-fit: cover;
+    }
+}
+
+.row-discografia, .row-merchandising, .row-blog{
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: $titulo_fuente;
+    }
+}
+
+.row-blog{
+    p, h5{
+        font-family: $texto_fuente;
+        color: white;
+    }
+    h4{
+        color: $principal ;
+        text-transform: uppercase !important;
+    }
+    img{
+        height: 455px;
+        object-fit: cover;
+    }
+
+    h3{
+    color: $principal
+}
+}
+
+.row-ultimos-articulos{
+    img{
+        height: 217px;
+        object-fit: cover;
+    }
+    h5{
+        font-family: $titulo_fuente;
+
+    }
+}
+
+
+
+.footer-background{
+    background-color: $principal;
+    color: #000;
+}
+
+footer{
+    font-family: $titulo_fuente;
+    .lista-nav{
+        a{
+            color: #000 !important;
+            text-decoration: none;
+        }
+        li{
+        list-style: none;
+        margin-bottom: 10px;
+        }
+        
+    }
+    .footer-plataformas{
+        svg{
+            height: 35px;
+            width: 35px;
+        }
+    }
+    form{
+        font-family: $texto_fuente;
+        input{
+            border: solid 1px black !important; 
+            height: 35px !important;
+            border-style: none;
+            width: 20vw;
+        }
+        input:focus{
+            border: solid 1px #000 !important;
+        }
+        button{
+            border-style: none;
+            background-color: #000;
+            height: 35px;
+            border: solid 1px black !important; 
+            width: 45px;
+            svg{
+                height: 24px;
+                width: auto;
+                color: $principal;
+            }
+        }
+        
+    }
+}
+
+
+.main-discografia{
+    p, h5{
+        font-family: $texto_fuente;
+        color: white;
+    }
+    h4{
+        font-family: $titulo_fuente;
+        color: $principal;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.main-disco{
+    iframe{
+        height: 700px;
+    }
+    h4, h5{
+        font-family: $texto_fuente;
+        color: white;
+    }
+
+    li{
+        list-style: none;
+        color: white;
+        margin-top: 20px;
+    }
+    svg{
+        color: $principal;
+        margin-right: 10px;
+        height: 25px;
+        width: 25px;
+    }   
+    hr{
+        color:white;
+    }
+}
+
+.img-eventos{
+    object-fit: cover;
+}
+
+.categorias{
+    width: 100%;
+}
+
+.card{
+    .padding-interno{
+        padding: 0px 20px 30px 20px;
+    }
+    .titulo{
+        font-family: $titulo_fuente;
+        color: $principal;
+    }
+    border: 3px solid $celeste;
+    background-color: #000;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+.cat-concierto{
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50%;
+}
+
+.cat-meetup{
+    background-color: green;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50%;
+}
+
+.cat-lanzamiento{
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50%;
+}
+
+.img-eventos{
+    height: 360px;
+    object-fit: cover;
+}
+
+.row-evento{
+    img{
+        max-height: 80vh;
+        object-fit: cover;
+    }
+}
+
+.row-texto-evento{
+     color: white;
+}
+
+.banner-merch{
+    background-image: url(../img/neverland.png);
+    height: 60vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.carousel-control-next{
+    right: -20vh;
+}
+
+.carousel-control-prev{
+    left: -20vh;
 }

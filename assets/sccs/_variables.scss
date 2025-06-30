@@ -1,0 +1,50 @@
+h1{
+    font-size: 3.05em;
+}
+h2{
+    font-size: 2.44em;
+}
+h3{
+    font-size: 1.95em;
+}
+h4{
+    font-size: 1.56em;
+}
+h5{
+    font-size: 1.25em;
+}
+p{
+    font-size: 1em;
+}
+
+@media (max-width: 1366px) {
+    h1{
+        font-size: 2.44em;
+    }
+    h2{
+        font-size: 1.95em;
+    }
+    h3{
+        font-size: 1.56em;
+    }
+    h4{
+        font-size: 1.25em;
+    }
+    h5{
+        font-size: 1em;
+    }
+}
+
+// Fuentes
+
+$titulo_fuente: "Michroma", sans-serif;
+$texto_fuente: "Exo 2", sans-serif;
+
+
+
+// Colores
+
+$principal: #E66BAC;
+$principal-oscuro: #cc237D;
+$principal-oscurisimo: #65103c;
+$celeste: #86cdea;
