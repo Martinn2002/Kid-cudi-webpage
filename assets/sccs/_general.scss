@@ -66,11 +66,18 @@ header{
         width: 25px;
         color: white;
         padding-bottom: 5px;
-        margin-left: 10px;
+        margin-left: 10px; 
     }
-
-
    
+}
+
+@media (max-width: 1366px) {
+    header{
+        svg{
+            height: 25px !important;
+            width: 20px !important;
+        }
+    }
 }
 
 .texto-logo{
